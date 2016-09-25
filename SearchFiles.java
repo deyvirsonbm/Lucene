@@ -25,13 +25,12 @@ import org.apache.lucene.search.TopDocs;
 import org.apache.lucene.store.FSDirectory;
 import org.tartarus.snowball.ext.PorterStemmer;
 
-/** Simple command-line based search demo. */
 public class SearchFiles {
 
 	private SearchFiles() {
 	}
 
-	/** Simple command-line based search demo. */
+	// Simple command-line
 	public static void main(String[] args) throws Exception {
 		String usage = "Usage:\tjava org.apache.lucene.demo.SearchFiles [-index dir] [-field f] [-repeat n] [-queries file] [-query string] [-raw] [-paging hitsPerPage]\n\nSee http://lucene.apache.org/core/4_1_0/demo/ for details.";
 		if (args.length > 0 && ("-h".equals(args[0]) || "-help".equals(args[0]))) {

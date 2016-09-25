@@ -33,8 +33,7 @@ import org.apache.lucene.store.FSDirectory;
 /**
  * Index all text files under a directory.
  * <p>
- * This is a command-line application demonstrating simple Lucene indexing. Run
- * it with no command-line arguments for usage information.
+ * This is a command-line application demonstrating simple Lucene indexing. 
  */
 public class IndexFiles {
 
